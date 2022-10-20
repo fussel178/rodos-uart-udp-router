@@ -19,3 +19,9 @@ make all
 ```shell
 ./router
 ```
+
+## Making changes
+
+This project uses the Rodos router to transfer messages between both interfaces.
+Most of the configurable parameters are in the top region of the `router.cpp` file defined as macros.
+Change the parameters and recompile the project before testing the changes.
